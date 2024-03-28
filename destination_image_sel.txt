@@ -1,0 +1,5 @@
+This Python script filters images based on JSON metadata.
+It iterates through JSON files in a specified directory.
+If certain icons are excluded in the metadata, it skips copying the associated image.
+Copies images without excluded icons to a new destination directory.
+Finally, it prints a message indicating the completion of the filtering process.S

@@ -1,0 +1,3 @@
+This script contains the Pre-processing and training run commands of the NVIDIA's GAN Model.
+This inital approach did not produce good results due to the lack GPU resources.
+So, we took an alternate approach - Smart Icon Placement

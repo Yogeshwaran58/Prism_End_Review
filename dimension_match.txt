@@ -1,0 +1,9 @@
+This Python script utilizes OpenCV to check images within a specified directory for the desired dimensions (1080x1920 pixels). 
+
+- It iterates through files in the specified directory, filtering by common image file extensions.
+- For each image, it attempts to load it using OpenCV.
+- If loading fails, it prints a message indicating the failure and continues to the next image.
+- If the image is successfully loaded, it checks its dimensions.
+- Images with dimensions matching the desired width and height are stored in a list.
+- If there are matching images, it prints their filenames.
+- Otherwise, it prints a message indicating no images with the desired dimensions were found.

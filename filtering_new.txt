@@ -1,0 +1,2 @@
+This script iterates through the annotation files of the augmented dataset and displays the histogram representing the concentration of icons across all images.
+The concentration of the icons with very less count has relatively increased w.r.t. the original version of this histogram (Refer filtering_old)

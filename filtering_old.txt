@@ -1,0 +1,1 @@
+This script iterates through the annotation files of the original dataset and displays the histogram representing the concentration of icons across all images.

@@ -1,0 +1,8 @@
+This Python function, `swap_regions`, swaps regions of interest (ROIs) between two images specified by their file paths. It takes as input the paths to two images (`image_path_1` and `image_path_2`), the bounding boxes of the regions to be swapped (`bbox1` and `bbox2`), and the paths where the resulting images with swapped regions will be saved (`save_path_1` and `save_path_2`).
+
+1. It reads the input images using OpenCV (`cv2.imread()`).
+2. It checks if the images are loaded successfully.
+3. It extracts the specified regions of interest from both images using slicing.
+4. It swaps the extracted regions between the two images.
+5. It draws rectangles around the swapped regions on the images for visualization using `cv2.rectangle()`.
+6. It saves the resulting images with swapped regions to the specified paths using `cv2.imwrite()`.

@@ -1,0 +1,9 @@
+This Python script loads an image using OpenCV, draws bounding boxes around specified objects on the image, and saves the resulting image with bounding boxes.
+
+1. It loads an image from the specified path using OpenCV (`cv2.imread()`).
+2. It checks if the image is loaded successfully.
+3. It defines a dictionary `coordinates` containing object names and their corresponding bounding box coordinates.
+4. It iterates over each object in `coordinates` and draws a rectangle around it on the loaded image using `cv2.rectangle()`.
+5. It specifies the output path where the resulting image with bounding boxes will be saved.
+6. It saves the image with bounding boxes to the specified output path using `cv2.imwrite()`.
+

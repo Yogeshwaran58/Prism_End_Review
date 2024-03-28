@@ -1,0 +1,2 @@
+This script upscales a lower resolution image to its equivalent 1024x1024 pixel resolution image.
+The lower resolution image's pixel resolution would vary depending on the GAN Model's configuration.

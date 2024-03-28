@@ -1,0 +1,5 @@
+This Python script iterates through image files in a specified directory.
+For each image, it constructs the corresponding JSON filename by changing the extension.
+It checks if the JSON file exists in another directory.
+If the JSON file exists, it copies it to a new destination directory for filtered JSON files.
+Finally, it prints a message indicating the completion of fetching corresponding JSON files.

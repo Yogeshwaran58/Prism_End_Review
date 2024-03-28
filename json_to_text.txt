@@ -1,0 +1,1 @@
+This script converts a json file format to a text document which is the preferred annotation file format for the YOLOV8 Object Detection Model.

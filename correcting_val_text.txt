@@ -1,0 +1,9 @@
+This script does the following task,
+
+1. It defines two directories: one containing text files (`dir_texts`) and the other containing image files (`dir_images`).
+2. It uses the `glob` module to retrieve all text files (`*.txt`) and image files (`*.*`) within their respective directories.
+3. It extracts the base filenames (without extensions) of the text and image files.
+4. It finds text files that do not have corresponding image files by subtracting the set of image file names from the set of text file names.
+5. It iterates over the filenames of text files without corresponding images and deletes them using `os.remove()`.
+6. It prints a message for each deleted file.
+7. Finally, it prints a message indicating the completion of the processing.

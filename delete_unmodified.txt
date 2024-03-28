@@ -1,0 +1,14 @@
+This Python script does the following tasks
+
+1. It defines the source directory containing images (`source_dir`) and the directory containing JSON metadata files (`json_dir`).
+
+2. The `does_overlap()` function checks if two bounding boxes overlap. It calculates the overlap between two bounding boxes based on their coordinates.
+
+3. The `check_for_overlap()` function checks if any icons in a JSON file overlap. It loads the JSON file, extracts the list of icons, and iterates over pairs of icons to check for overlaps using the `does_overlap()` function.
+
+4. The `delete_overlapping_images()` function iterates over JSON files in the specified directory. For each JSON file, it checks for overlapping icons using `check_for_overlap()`.
+
+5. If overlapping icons are found, it constructs the corresponding image file name based on the JSON file name and attempts to delete the image file using `os.remove()`. It also deletes the JSON file.
+
+6. If no overlapping icons are found or if the JSON file lacks the necessary keys, it prints a message indicating the absence of overlaps or missing keys.
+

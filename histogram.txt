@@ -1,0 +1,3 @@
+This script iterates through the annotation files of all the images in the newly augmented dataset and display a histogram representing the no. of images with overlapping bounding boxes of icons.
+The Smart Icon Placement algorithm incorporates techniques to prevent the overlapping of bounding boxes on patch pasting.
+The very low concentration of images with overlaps signify the efficiency of the algorithm used for augmentation.

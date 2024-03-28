@@ -1,0 +1,7 @@
+This Python script following tasks,
+1. It receives two directory paths as input.
+2. It retrieves the list of files present in each directory using `os.listdir()` and converts them to sets.
+3. It finds the common files between the two directories using the `intersection()` method.
+4. It iterates over the common files and attempts to delete them using `os.remove()`.
+5. It prints a message for each successfully deleted file, and in case of an error, it prints an error message.
+

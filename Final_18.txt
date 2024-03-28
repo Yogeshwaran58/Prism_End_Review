@@ -1,0 +1,11 @@
+This script does the following tasks,
+
+1. It defines a list of icon names to swap.
+2. It sets source and destination directories for images and JSON files.
+3. It defines functions for various tasks like calculating distance, finding suitable positions for icons, appending data to JSON files, and more.
+4. The `process_images()` function iterates through destination images and attempts to swap icons from source images into them.
+5. It contains a `find_source_with_icon()` function to find a source image containing a specific icon.
+6. It validates directories' existence and executes the main function `main()`.
+
+Overall, the script swaps specified icons from source images into destination images while ensuring proper positioning and avoiding overlap. 
+It updates corresponding JSON files with the new icon metadata.

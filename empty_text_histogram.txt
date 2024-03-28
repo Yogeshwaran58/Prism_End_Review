@@ -1,0 +1,3 @@
+This script compares the no. of empty and non-empty images in the original and the newly augmented dataset. (Look at the two bar graphs)
+Here, non empty images are those which do not contain any of the 36 icons.
+After augmentation (patch swapping), the no. of non-empty images has increased.
